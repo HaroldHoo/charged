@@ -1,0 +1,23 @@
+{
+	"me" : [
+		"10.0.13.15:8080",
+		"10.0.13.16:8080",
+		"127.0.0.1:8080"
+	],
+	"mysql" : {
+		"yc_crm_common" : {
+			"master" : {
+				"cfg" : ["map", "charge.yc_crm_common_master"]
+			},
+			"slave" : {
+				"cfg" : ["map", "charge.yc_crm_common_slave"]
+			}
+		}
+	},
+	"hosts" : {
+		"lbs_host" : {
+			"cfg" : ["string", "charge.lbs.host"]
+		}
+	}
+}
+

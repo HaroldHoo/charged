@@ -1,0 +1,27 @@
+{
+    "me" : [
+        "10.0.13.15:8080",
+        "10.0.13.16:8080",
+        "127.0.0.1:8080"
+    ],
+    "mysql" : {
+        "yc_crm_common" : {
+            "master" : {
+                "host" : "10.0.11.229",
+                "port" : 3306,
+                "charset" : "utf8",
+                "username" : "yongche",
+                "password" : "",
+                "dbname" : "yc_crm_common"
+            },
+            "slave" : {
+                "host" : "10.0.11.229",
+                "port" : 3306,
+                "charset" : "utf8",
+                "username" : "yongche",
+                "password" : "",
+                "dbname" : "yc_crm_common"
+            }
+        }
+    }
+}
